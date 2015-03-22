@@ -1,15 +1,16 @@
 #
 # Calc_ElasticModuli_from_VTK.py
 #
-# Written by Matthew Priddy on March 1, 2015
+# Written by Matthew Priddy on March 17, 2015
 # Some functions contributed by Noah Paulson
+# Input data also contributed by Noah Paulson
 #
 # Contact information:
 # Matthew W. Priddy: 	mwpriddy (at) gatech (dot) edu 
 #						mwpriddy (at) gmail (dot) com
 # 
-# The purpose of this code is to directional elastic moduli from stress/strain data
-# calculated from FEM/MKS/etc.  
+# The purpose of this code is to determine directional elastic moduli from 
+# stress/strain data calculated with FEM/MKS/etc.  
 #
 # The stress/strain data comes from uniaxial strain boundary conditions, but elastic moduli
 # values are typically determined from unixial stress boundary conditions.
